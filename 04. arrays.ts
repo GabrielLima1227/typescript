@@ -31,3 +31,12 @@ export function formatLabels(...labels: string[]): string {
         return `Labels: ${labels.join(", ")}`;
     }
 }
+
+// Any Array
+export function collectSupportData(id: number, resolved: boolean) {
+      const supportData :any = [];
+      supportData.push("Support session started");
+      supportData.push(id);
+      supportData.push(resolved);
+      return supportData;
+}
