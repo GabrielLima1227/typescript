@@ -34,9 +34,9 @@ export function formatLabels(...labels: string[]): string {
 
 // Any Array
 export function collectSupportData(id: number, resolved: boolean) {
-      const supportData :any = [];
-      supportData.push("Support session started");
-      supportData.push(id);
-      supportData.push(resolved);
-      return supportData;
+    const supportData :any = [];
+    supportData.push("Support session started");
+    supportData.push(id);
+    supportData.push(resolved);
+    return supportData;
 }
