@@ -1,3 +1,3 @@
-function displayMessage(message: string): void{
+function displayMessage(message: string): void {
     console.log(message);
 }

@@ -1,7 +1,7 @@
 type Settings = { theme: string; darkMode: boolean };
 
-function updateSettings(settings: Settings) {
-    console.log(settings);
+function updateSettings(setting: Settings) {
+    console.log(setting);
 }
 
-updateSettings({ theme: "White", darkMode: false, color:rgb(255,255,255)})
+updateSettings({theme: "White", darkMode: false, color:rgb(255,255,255)})

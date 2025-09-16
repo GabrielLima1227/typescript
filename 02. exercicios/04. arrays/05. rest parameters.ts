@@ -1,9 +1,9 @@
-function calculateAverage(...value: number[]): number{
-    if (!value.length) {
-        throw new Error("At least one number is required to calculate the average.");
+function calculateAverage(...values: number[]): number {
+    if (!values.length) {
+        throw new Error("At least one number is required to calculate an average.");
     }
-    return value.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / value.length;
+    return values.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / values.length;
 }
 
-console.log(calculateAverage(10, 20, 30)); // 20
-console.log(calculateAverage(5, 15));      // 10
+console.log(calculateAverage(10, 20, 30));
+console.log(calculateAverage(5, 15));

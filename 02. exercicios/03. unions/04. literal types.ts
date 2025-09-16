@@ -1,4 +1,5 @@
-type Directions = "norte" | "sul" | "leste" | "oeste";
-function walk(direction: Directions): void{
-    console.log(`You walked to ${direction}`);
+type Direction = "north" | "south" | "east" | "west";
+
+function walk(direction: Direction): void {
+    console.log(`You walked ${direction}`);
 }

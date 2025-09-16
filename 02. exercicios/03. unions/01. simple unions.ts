@@ -1,9 +1,9 @@
-let reseult: string | number;
+let result: string | number;
 
-reseult = "Pass";
-console.log(reseult);
+result = "Pass";
+console.log(result);
 
-reseult = 1;
-console.log(reseult);
+result = 1;
+console.log(result);
 
-reseult = true; // Error Type Boolean is not assignable to type string | number.
+result = true; // Error: Type 'boolean' is not assignable to type 'string | number'.

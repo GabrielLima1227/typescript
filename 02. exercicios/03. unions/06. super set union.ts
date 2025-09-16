@@ -6,7 +6,7 @@ function processInput(data: string | number | boolean | null | undefined): void 
     } else if (typeof data === "number") {
         console.log("The data is a number:", data);
     } else if (typeof data === "boolean") {
-        console.log("The data is a boolean:", data ? "True" : "False");
+        console.log("The data is a boolean:", data ? "true" : "false");
     } else if (typeof data === "undefined") {
         console.log("The data is undefined.");
     } else {

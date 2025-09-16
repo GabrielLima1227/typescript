@@ -1,0 +1,1 @@
+let coordinates: readonly [number, number] = [5, 15];

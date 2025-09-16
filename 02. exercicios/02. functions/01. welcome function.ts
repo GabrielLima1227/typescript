@@ -1,3 +1,3 @@
-function greeting(name: string): string{
-    return `Welcome ${name}!`
+function greeting(name: string): string {
+    return `Welcome, ${name}!`;
 }

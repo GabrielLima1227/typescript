@@ -1,5 +1,5 @@
-type student = {id: number, name: string}
-let students = new Set<student>();
+type Student = {id: number, name: string}
+let students = new Set<Student>();
 
 students.add({id: 137, name: "Rick"});
 students.add({id: 132, name: "Morty"})

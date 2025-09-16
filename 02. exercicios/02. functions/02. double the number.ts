@@ -1,3 +1,3 @@
-function double(number: number): number{
+function double(number: number): number {
     return number * 2;
 }
